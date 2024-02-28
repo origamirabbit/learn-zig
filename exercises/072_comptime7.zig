@@ -11,6 +11,11 @@
 //         print(foo[i] ++ "\n", .{foo[i]});
 //     }
 //
+//     output:
+//     ~~{s}~~
+//     <<{s}>>
+//     dd{s}bb
+//
 // You haven't taken off that wizard hat yet, have you?
 //
 const print = @import("std").debug.print;

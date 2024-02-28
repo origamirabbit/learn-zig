@@ -125,13 +125,13 @@ pub fn main() !void {
 
     // Now the actual table. (Is there anything more beautiful
     // than a well-formatted table?)
-    for (0..size) |a| {
+    for (0..size) |a| { // vertical
         print("{d:>2} |", .{a + 1});
 
-        for (0..size) |b| {
+        for (0..size) |b| { // horizontal
             // What formatting is needed here to make our columns
             // nice and straight?
-            print("{???} ", .{(a + 1) * (b + 1)});
+            print("{d:>3} ", .{(a + 1) * (b + 1)});
         }
 
         // After each row we use double line feed:
