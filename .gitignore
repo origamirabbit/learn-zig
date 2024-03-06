@@ -2,5 +2,6 @@
 /zig-out/
 /answers/
 /patches/healed/
+/.vscode
 /.idea
 /.DS_Store
